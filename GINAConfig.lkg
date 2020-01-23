@@ -1,0 +1,2867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Settings>
+    <EnableSound>True</EnableSound>
+    <MasterVolume>100</MasterVolume>
+    <EnableText>True</EnableText>
+    <EnableTimers>True</EnableTimers>
+    <DisplayMatches>True</DisplayMatches>
+    <MatchDisplayLimit>100</MatchDisplayLimit>
+    <LogMatchesToFile>False</LogMatchesToFile>
+    <MatchLogFileName></MatchLogFileName>
+    <ShareServiceUri>https://eq.gimasoft.com/GINAServices/Package.svc</ShareServiceUri>
+    <AutoUpdate>True</AutoUpdate>
+    <ImportedMediaFileFolder>C:\Users\kevin\AppData\Local\GimaSoft\GINA\ImportedMediaFiles</ImportedMediaFileFolder>
+    <EverquestFolder>C:\Games\EverQuest</EverquestFolder>
+    <RepositoryLastViewed>1/18/2020 3:03:36 PM -06:00</RepositoryLastViewed>
+    <MinimizeToSystemTray>False</MinimizeToSystemTray>
+    <CheckLibraryAtStartup>False</CheckLibraryAtStartup>
+    <ReferenceToSelf>You</ReferenceToSelf>
+    <AllowSharedPackages>True</AllowSharedPackages>
+    <AllowGamTextTriggerShares>True</AllowGamTextTriggerShares>
+    <StopSearchingAfterFirstMatch>False</StopSearchingAfterFirstMatch>
+    <AcceptShareLevel>Anybody</AcceptShareLevel>
+    <AutoMergeShareLevel>Nobody</AutoMergeShareLevel>
+    <CTagClipboardReplacement>{C}</CTagClipboardReplacement>
+    <EnableDebugLog>False</EnableDebugLog>
+    <ArchiveLogs>False</ArchiveLogs>
+    <CompressArchivedLogs>False</CompressArchivedLogs>
+    <LogArchiveFolder></LogArchiveFolder>
+    <LogArchiveMethod>BySize</LogArchiveMethod>
+    <LogArchiveSchedule>Monthly</LogArchiveSchedule>
+    <LogArchiveThresholdSize>104857600</LogArchiveThresholdSize>
+    <PurgeArchivedLogs>False</PurgeArchivedLogs>
+    <ArchivePurgeDaysToKeep>365</ArchivePurgeDaysToKeep>
+    <ProfilerRefreshInterval>30</ProfilerRefreshInterval>
+    <ProcessorAffinity>255</ProcessorAffinity>
+    <ShareWhiteList>
+      <Character>Zicon</Character>
+    </ShareWhiteList>
+    <PhoneticTransforms>
+      <Transform>
+        <ActualWord>Debian</ActualWord>
+        <PhoneticWord>Dehbeain</PhoneticWord>
+      </Transform>
+      <Transform>
+        <ActualWord>Bakhardi</ActualWord>
+        <PhoneticWord>Behkhardi</PhoneticWord>
+      </Transform>
+      <Transform>
+        <ActualWord>Zicon</ActualWord>
+        <PhoneticWord>Zeye con</PhoneticWord>
+      </Transform>
+      <Transform>
+        <ActualWord>Ahzzi</ActualWord>
+        <PhoneticWord>Ahzee</PhoneticWord>
+      </Transform>
+    </PhoneticTransforms>
+  </Settings>
+  <BehaviorGroups>
+    <Behavior>
+      <BehaviorType>Text</BehaviorType>
+      <Name>Default</Name>
+      <FontName>Lucida Console</FontName>
+      <FontSize>18</FontSize>
+      <GroupByCharacter>True</GroupByCharacter>
+      <SortMethod>OrderTriggered</SortMethod>
+      <TextFadeTime>10</TextFadeTime>
+      <ShowTimerBar>True</ShowTimerBar>
+      <EmptyBarColor>#D0000000</EmptyBarColor>
+      <StandardizeTimerBars>False</StandardizeTimerBars>
+      <BackgroundColor>#00FFFFFF</BackgroundColor>
+      <BackgroundFadedColor>#00000000</BackgroundFadedColor>
+      <WindowLayout>
+        <WINDOWPLACEMENT>
+          <length>44</length>
+          <flags>0</flags>
+          <showCmd>1</showCmd>
+          <minPosition>
+            <X>-1</X>
+            <Y>-1</Y>
+          </minPosition>
+          <maxPosition>
+            <X>-1</X>
+            <Y>-1</Y>
+          </maxPosition>
+          <normalPosition>
+            <Left>50</Left>
+            <Top>50</Top>
+            <Right>911</Right>
+            <Bottom>367</Bottom>
+          </normalPosition>
+        </WINDOWPLACEMENT>
+      </WindowLayout>
+    </Behavior>
+    <Behavior>
+      <BehaviorType>Timer</BehaviorType>
+      <Name>Default</Name>
+      <FontName>Arial</FontName>
+      <FontSize>12</FontSize>
+      <GroupByCharacter>False</GroupByCharacter>
+      <SortMethod>OrderTriggered</SortMethod>
+      <TextFadeTime>10</TextFadeTime>
+      <ShowTimerBar>True</ShowTimerBar>
+      <EmptyBarColor>#C4000000</EmptyBarColor>
+      <StandardizeTimerBars>False</StandardizeTimerBars>
+      <BackgroundColor>#00000000</BackgroundColor>
+      <BackgroundFadedColor>#00000000</BackgroundFadedColor>
+      <WindowLayout>
+        <WINDOWPLACEMENT>
+          <length>44</length>
+          <flags>0</flags>
+          <showCmd>1</showCmd>
+          <minPosition>
+            <X>-1</X>
+            <Y>-1</Y>
+          </minPosition>
+          <maxPosition>
+            <X>-1</X>
+            <Y>-1</Y>
+          </maxPosition>
+          <normalPosition>
+            <Left>3</Left>
+            <Top>40</Top>
+            <Right>603</Right>
+            <Bottom>440</Bottom>
+          </normalPosition>
+        </WINDOWPLACEMENT>
+      </WindowLayout>
+    </Behavior>
+    <Behavior>
+      <BehaviorType>Timer</BehaviorType>
+      <Name>Overlay #1</Name>
+      <FontName>Arial</FontName>
+      <FontSize>7</FontSize>
+      <GroupByCharacter>True</GroupByCharacter>
+      <SortMethod>TimeRemaining</SortMethod>
+      <TextFadeTime>10</TextFadeTime>
+      <ShowTimerBar>True</ShowTimerBar>
+      <EmptyBarColor>#C4000000</EmptyBarColor>
+      <StandardizeTimerBars>True</StandardizeTimerBars>
+      <BackgroundColor>#00000000</BackgroundColor>
+      <BackgroundFadedColor>#00000000</BackgroundFadedColor>
+      <WindowLayout>
+        <WINDOWPLACEMENT>
+          <length>44</length>
+          <flags>0</flags>
+          <showCmd>1</showCmd>
+          <minPosition>
+            <X>-1</X>
+            <Y>-1</Y>
+          </minPosition>
+          <maxPosition>
+            <X>-1</X>
+            <Y>-1</Y>
+          </maxPosition>
+          <normalPosition>
+            <Left>26</Left>
+            <Top>85</Top>
+            <Right>626</Right>
+            <Bottom>426</Bottom>
+          </normalPosition>
+        </WINDOWPLACEMENT>
+      </WindowLayout>
+    </Behavior>
+    <Behavior>
+      <BehaviorType>Text</BehaviorType>
+      <Name>Bad Things</Name>
+      <FontName>Arial</FontName>
+      <FontSize>35</FontSize>
+      <GroupByCharacter>False</GroupByCharacter>
+      <SortMethod>OrderTriggered</SortMethod>
+      <TextFadeTime>10</TextFadeTime>
+      <ShowTimerBar>True</ShowTimerBar>
+      <EmptyBarColor>#C4000000</EmptyBarColor>
+      <StandardizeTimerBars>False</StandardizeTimerBars>
+      <BackgroundColor>#00000000</BackgroundColor>
+      <BackgroundFadedColor>#00000000</BackgroundFadedColor>
+      <WindowLayout>
+        <WINDOWPLACEMENT>
+          <length>44</length>
+          <flags>0</flags>
+          <showCmd>1</showCmd>
+          <minPosition>
+            <X>-1</X>
+            <Y>-1</Y>
+          </minPosition>
+          <maxPosition>
+            <X>-1</X>
+            <Y>-1</Y>
+          </maxPosition>
+          <normalPosition>
+            <Left>1263</Left>
+            <Top>7</Top>
+            <Right>1663</Right>
+            <Bottom>207</Bottom>
+          </normalPosition>
+        </WINDOWPLACEMENT>
+      </WindowLayout>
+    </Behavior>
+  </BehaviorGroups>
+  <Categories>
+    <Category>
+      <Name>Default</Name>
+      <TextOverlay>Default</TextOverlay>
+      <TextStyleSource>None</TextStyleSource>
+      <TextStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TextStyle>
+      <TimerOverlay>Default</TimerOverlay>
+      <TimerStyleSource>None</TimerStyleSource>
+      <TimerStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TimerStyle>
+      <IsDefault>True</IsDefault>
+    </Category>
+    <Category>
+      <Name>Bad things</Name>
+      <TextOverlay>Bad Things</TextOverlay>
+      <TextStyleSource>None</TextStyleSource>
+      <TextStyle>
+        <FontColor>#FFFF0000</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TextStyle>
+      <TimerOverlay>Default</TimerOverlay>
+      <TimerStyleSource>None</TimerStyleSource>
+      <TimerStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TimerStyle>
+      <IsDefault>False</IsDefault>
+    </Category>
+  </Categories>
+  <TriggerGroups>
+    <TriggerGroup>
+      <Name>Common</Name>
+      <Comments></Comments>
+      <SelfCommented>False</SelfCommented>
+      <GroupId>1</GroupId>
+      <EnableByDefault>True</EnableByDefault>
+      <TriggerGroups>
+        <TriggerGroup>
+          <Name>Casting</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>4</GroupId>
+          <EnableByDefault>True</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Spell interrupted</Name>
+              <TriggerText>Your spell is interrupted.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>{C} Interrupted</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2019-12-24T19:12:03</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Insufficient mana</Name>
+              <TriggerText>Insufficient Mana to cast this spell!</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{C} is out of mana</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>{C} is out of mana</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2019-12-24T19:12:03</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+        <TriggerGroup>
+          <Name>General</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>5</GroupId>
+          <EnableByDefault>True</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Drowning</Name>
+              <TriggerText>You are drowning!</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{C} is Drowning!</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>{C} is Drowning!</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2019-12-24T19:12:03</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Invis dropping</Name>
+              <TriggerText>You feel yourself starting to appear</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>Invis dropping on {C}</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>Invis dropping on {C}</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>0</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2019-12-24T19:12:03</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Invited to group</Name>
+              <TriggerText>{S} invites you to join a group.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} invited {C} to group.</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>{C} invited to group.</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2019-12-24T19:12:03</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Invited to raid</Name>
+              <TriggerText>{S} invites you to join a raid.  Would you like to join?</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} invited {C} to raid</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>{C} invited to raid</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2019-12-24T19:12:03</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+      </TriggerGroups>
+      <Triggers>
+        <Trigger>
+          <Name>Invis Dropping</Name>
+          <TriggerText>You feel yourself starting to appear</TriggerText>
+          <Comments></Comments>
+          <EnableRegex>False</EnableRegex>
+          <UseText>False</UseText>
+          <DisplayText></DisplayText>
+          <CopyToClipboard>False</CopyToClipboard>
+          <ClipboardText></ClipboardText>
+          <UseTextToVoice>True</UseTextToVoice>
+          <InterruptSpeech>True</InterruptSpeech>
+          <TextToVoiceText>Invis dropping on {C}</TextToVoiceText>
+          <PlayMediaFile>False</PlayMediaFile>
+          <TimerType>NoTimer</TimerType>
+          <TimerName></TimerName>
+          <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+          <TimerMillisecondDuration>0</TimerMillisecondDuration>
+          <TimerDuration>0</TimerDuration>
+          <TimerVisibleDuration>0</TimerVisibleDuration>
+          <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+          <TimerEndingTime>0</TimerEndingTime>
+          <UseTimerEnding>False</UseTimerEnding>
+          <UseTimerEnded>False</UseTimerEnded>
+          <UseCounterResetTimer>False</UseCounterResetTimer>
+          <CounterResetDuration>0</CounterResetDuration>
+          <Category>Default</Category>
+          <Modified>2019-12-24T00:00:00</Modified>
+          <UseFastCheck>True</UseFastCheck>
+          <TimerEarlyEnders />
+        </Trigger>
+        <Trigger>
+          <Name>Partially Successful</Name>
+          <TriggerText>^Your spell was partially successful</TriggerText>
+          <Comments></Comments>
+          <EnableRegex>True</EnableRegex>
+          <UseText>True</UseText>
+          <DisplayText>Partial</DisplayText>
+          <CopyToClipboard>False</CopyToClipboard>
+          <ClipboardText></ClipboardText>
+          <UseTextToVoice>False</UseTextToVoice>
+          <InterruptSpeech>False</InterruptSpeech>
+          <TextToVoiceText></TextToVoiceText>
+          <PlayMediaFile>False</PlayMediaFile>
+          <TimerType>NoTimer</TimerType>
+          <TimerName></TimerName>
+          <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+          <TimerMillisecondDuration>0</TimerMillisecondDuration>
+          <TimerDuration>0</TimerDuration>
+          <TimerVisibleDuration>0</TimerVisibleDuration>
+          <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+          <TimerEndingTime>1</TimerEndingTime>
+          <UseTimerEnding>False</UseTimerEnding>
+          <UseTimerEnded>False</UseTimerEnded>
+          <UseCounterResetTimer>False</UseCounterResetTimer>
+          <CounterResetDuration>0</CounterResetDuration>
+          <Category>Default</Category>
+          <Modified>2020-01-18T20:13:01</Modified>
+          <UseFastCheck>False</UseFastCheck>
+          <TimerEarlyEnders />
+        </Trigger>
+      </Triggers>
+    </TriggerGroup>
+    <TriggerGroup>
+      <Name>Class</Name>
+      <Comments></Comments>
+      <SelfCommented>False</SelfCommented>
+      <GroupId>3</GroupId>
+      <EnableByDefault>False</EnableByDefault>
+      <TriggerGroups>
+        <TriggerGroup>
+          <Name>Ranger</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>6</GroupId>
+          <EnableByDefault>False</EnableByDefault>
+          <TriggerGroups>
+            <TriggerGroup>
+              <Name>AA</Name>
+              <Comments></Comments>
+              <SelfCommented>False</SelfCommented>
+              <GroupId>7</GroupId>
+              <EnableByDefault>False</EnableByDefault>
+              <TriggerGroups>
+                <TriggerGroup>
+                  <Name>Cooldowns</Name>
+                  <Comments></Comments>
+                  <SelfCommented>False</SelfCommented>
+                  <GroupId>8</GroupId>
+                  <EnableByDefault>False</EnableByDefault>
+                  <Triggers>
+                    <Trigger>
+                      <Name>Auspice (Cooldown)</Name>
+                      <TriggerText>^You begin casting Auspice of the Hunter.$</TriggerText>
+                      <Comments>AOH Timer</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>AOH (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>720000</TimerMillisecondDuration>
+                      <TimerDuration>720</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>False</UseText>
+                        <DisplayText></DisplayText>
+                        <UseTextToVoice>True</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText>{C} Auspice Up!</TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2020-01-18T15:08:11</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Cover Tracks (Cooldown)</Name>
+                      <TriggerText>^You cover your tracks and disappear into the underbrush.$</TriggerText>
+                      <Comments>Cover Tracks Timer</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Cover Tracks</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>540000</TimerMillisecondDuration>
+                      <TimerDuration>540</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>Cover Tracks up</DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>GGotF (Cooldown)</Name>
+                      <TriggerText>^You begin casting Group Guardian of the Forest.$</TriggerText>
+                      <Comments>GGotF Timer</Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>True</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText>{C} Group Guardian On!</TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>GGotF (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>630000</TimerMillisecondDuration>
+                      <TimerDuration>630</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText> Group Guardian Up!</DisplayText>
+                        <UseTextToVoice>True</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Guardian of the Forest (Cooldown)</Name>
+                      <TriggerText>^You begin casting Guardian of the Forest.$</TriggerText>
+                      <Comments>GotF Timer</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>GotF (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>460000</TimerMillisecondDuration>
+                      <TimerDuration>460</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>Guardian of the Forest Up</DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Harmonious Arrow (Cooldown)</Name>
+                      <TriggerText>^You begin casting Harmonious Arrow.$</TriggerText>
+                      <Comments>HA TImer</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>HA (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>90000</TimerMillisecondDuration>
+                      <TimerDuration>90</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText> HA up</DisplayText>
+                        <UseTextToVoice>True</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Imbued Ferocity (Cooldown)</Name>
+                      <TriggerText>^You begin casting Imbued Ferocity $</TriggerText>
+                      <Comments>IF Timer</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>IF (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>840000</TimerMillisecondDuration>
+                      <TimerDuration>840</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>Imbued Ferocity Up</DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2020-01-18T16:10:49</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Outrider's Accuracy (Cooldown)</Name>
+                      <TriggerText>^You begin casting Outrider's Accuracy$</TriggerText>
+                      <Comments>OA Timer</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Outrider's Accuracy (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>420000</TimerMillisecondDuration>
+                      <TimerDuration>420</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>Out Acc Up</DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2020-01-18T16:08:13</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Outrider's Attack (Cooldown)</Name>
+                      <TriggerText>^You begin casting Outrider's Attack.$</TriggerText>
+                      <Comments>Outrider's Attack Reuse</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Outrider's Attack (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>480000</TimerMillisecondDuration>
+                      <TimerDuration>480</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>Out Attack Ready</DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Outrider's Evasion (Cooldown)</Name>
+                      <TriggerText>^You begin to casting Outrider's Evasion.$</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>Evading!</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Outrider's Evasion Reuse</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>420000</TimerMillisecondDuration>
+                      <TimerDuration>420</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>Outrider's Evasion Up</DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Pack Hunt (Cooldown)</Name>
+                      <TriggerText>^You begin casting Pack Hunt.$</TriggerText>
+                      <Comments>Pack Hunt Reuse</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Pack Hunt (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>900000</TimerMillisecondDuration>
+                      <TimerDuration>900</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Protection of the Spirit Wolf (Cooldown)</Name>
+                      <TriggerText>^You begin casting Protection of the Spirit Wolf.$</TriggerText>
+                      <Comments>Protection of the Spirit Wolf Reuse</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>PotSW (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>1560000</TimerMillisecondDuration>
+                      <TimerDuration>1560</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Scout's Mastery (Cooldown)</Name>
+                      <TriggerText>^You begin casting Scout's Mastery of {s}$</TriggerText>
+                      <Comments>Scouts Mastery (Cooldown)</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Scout's Mastery Refresh</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>549000</TimerMillisecondDuration>
+                      <TimerDuration>549</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>Scout's Mastery Up</DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Volatile Arrow (Cooldown)</Name>
+                      <TriggerText>You begin casting Volatile Arrow</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>VA Refresh</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>180000</TimerMillisecondDuration>
+                      <TimerDuration>180</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>VA Ready</DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Glacial Arrow (Cooldown)</Name>
+                      <TriggerText>You begin casting Glacial Arrow</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>GA (Cooldown)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>180000</TimerMillisecondDuration>
+                      <TimerDuration>180</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                  </Triggers>
+                </TriggerGroup>
+                <TriggerGroup>
+                  <Name>Durations</Name>
+                  <Comments></Comments>
+                  <SelfCommented>False</SelfCommented>
+                  <GroupId>9</GroupId>
+                  <EnableByDefault>False</EnableByDefault>
+                  <Triggers>
+                    <Trigger>
+                      <Name>Auspice (Duration)</Name>
+                      <TriggerText>^Your instincts are sharpened by the auspice of the hunter.$</TriggerText>
+                      <Comments>Auspice of the Hunter (Duration)</Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>AoH Running</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>True</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText>{C} Auspice!</TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Auspice</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>90000</TimerMillisecondDuration>
+                      <TimerDuration>90</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>True</UseText>
+                        <DisplayText>AoH Down</DisplayText>
+                        <UseTextToVoice>True</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText>{C} Auspice Down!</TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>Your mind dulls.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                    <Trigger>
+                      <Name>GotF/GGotF (Duration)</Name>
+                      <TriggerText>^The power of the forest surges through your muscles.$</TriggerText>
+                      <Comments>GotF/GGotF</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>{C} GotF/GGotF</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>105000</TimerMillisecondDuration>
+                      <TimerDuration>105</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>False</UseText>
+                        <DisplayText></DisplayText>
+                        <UseTextToVoice>True</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText>{C} Guardian Down</TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2020-01-18T15:44:57</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>Your power fades.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                    <Trigger>
+                      <Name>Imbued Ferocity (Duration)</Name>
+                      <TriggerText>^Your muscles bulge with increased ferocity.$</TriggerText>
+                      <Comments>IF Duration</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>IF Running</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Imbued Fero Running</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>36000</TimerMillisecondDuration>
+                      <TimerDuration>36</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>The ferocity fades.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                    <Trigger>
+                      <Name>Outrider's Attack (Duration)</Name>
+                      <TriggerText>^You are filled with precision of purpose.$</TriggerText>
+                      <Comments>Outrider's Attack Running</Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>Out Attack</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Outrider's Attack</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>60000</TimerMillisecondDuration>
+                      <TimerDuration>60</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>The precision of purpose fades.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                    <Trigger>
+                      <Name>Outrider's Accuracy (Duration)</Name>
+                      <TriggerText>^You fill yourself with Outrider's Accur$</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>Out Acc Running</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Outrider's Accuracy</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>60000</TimerMillisecondDuration>
+                      <TimerDuration>60</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>False</UseText>
+                        <DisplayText></DisplayText>
+                        <UseTextToVoice>True</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText>{C} Outrider's Accuracy Down!</TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2020-01-18T16:09:00</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>Your accuracy fades.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                    <Trigger>
+                      <Name>Outrider's Evasion (Duration)</Name>
+                      <TriggerText>^You begin to evade.$</TriggerText>
+                      <Comments>Outrider's Evasion Running</Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Outrider's Evasion Running</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>51000</TimerMillisecondDuration>
+                      <TimerDuration>51</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2020-01-18T16:09:06</Modified>
+                      <UseFastCheck>False</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>You stop evading.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                    <Trigger>
+                      <Name>Protection of the Spirit Wolf (Duration)</Name>
+                      <TriggerText>^You invoke the protection of the spirit wolf.$</TriggerText>
+                      <Comments>Spirit Wolf Duration</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>PotSW (Runtime)</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>105000</TimerMillisecondDuration>
+                      <TimerDuration>105</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>False</UseText>
+                        <DisplayText></DisplayText>
+                        <UseTextToVoice>True</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText>{C} Protection of the Spirit Wolf Down!</TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>Your spirit wolf departs.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                    <Trigger>
+                      <Name>Scout's Mastery (Duration)</Name>
+                      <TriggerText>^You attune yourself to the element of {s}.$</TriggerText>
+                      <Comments>Scout's Mastery Duration</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Scout's Mastery of {s}</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>210000</TimerMillisecondDuration>
+                      <TimerDuration>210</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>The atunement fades.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                    <Trigger>
+                      <Name>Sheltering Thunger (Duration)</Name>
+                      <TriggerText>^You protect yourself with thundering blades.$</TriggerText>
+                      <Comments>SHELTERING THUNDER PROC</Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>Sheltered</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Sheltering Thunder</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>18000</TimerMillisecondDuration>
+                      <TimerDuration>18</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>True</UseTimerEnded>
+                      <TimerEndedTrigger>
+                        <UseText>False</UseText>
+                        <DisplayText></DisplayText>
+                        <UseTextToVoice>False</UseTextToVoice>
+                        <InterruptSpeech>False</InterruptSpeech>
+                        <TextToVoiceText></TextToVoiceText>
+                        <PlayMediaFile>False</PlayMediaFile>
+                      </TimerEndedTrigger>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>The protection from your thundering blades fades.</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                  </Triggers>
+                </TriggerGroup>
+                <TriggerGroup>
+                  <Name>Success</Name>
+                  <Comments></Comments>
+                  <SelfCommented>False</SelfCommented>
+                  <GroupId>10</GroupId>
+                  <EnableByDefault>False</EnableByDefault>
+                  <Triggers>
+                    <Trigger>
+                      <Name>Cover Tracks</Name>
+                      <TriggerText>You cover your tracks and disappear into the underbrush</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>Tracks Covered</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>NoTimer</TimerType>
+                      <TimerName></TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>0</TimerMillisecondDuration>
+                      <TimerDuration>0</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>1</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>Snared</Name>
+                      <TriggerText>{s} has been ensnared</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>{s} is snared</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>{s} Snared</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>840000</TimerMillisecondDuration>
+                      <TimerDuration>840</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>1</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>slain</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                  </Triggers>
+                </TriggerGroup>
+              </TriggerGroups>
+            </TriggerGroup>
+            <TriggerGroup>
+              <Name>Disciplines</Name>
+              <Comments></Comments>
+              <SelfCommented>False</SelfCommented>
+              <GroupId>11</GroupId>
+              <EnableByDefault>False</EnableByDefault>
+              <Triggers>
+                <Trigger>
+                  <Name>Bullseye Disc (Cooldown)</Name>
+                  <TriggerText>^Your bow crackles with natural energy.$</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>False</UseText>
+                  <DisplayText></DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>Bullseye Disc (Cooldown)</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>1170000</TimerMillisecondDuration>
+                  <TimerDuration>1170</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                  <TimerEndingTime>1</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>True</UseTimerEnded>
+                  <TimerEndedTrigger>
+                    <UseText>False</UseText>
+                    <DisplayText></DisplayText>
+                    <UseTextToVoice>True</UseTextToVoice>
+                    <InterruptSpeech>False</InterruptSpeech>
+                    <TextToVoiceText>{C} Bulls Eye Up!</TextToVoiceText>
+                    <PlayMediaFile>False</PlayMediaFile>
+                  </TimerEndedTrigger>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders />
+                </Trigger>
+                <Trigger>
+                  <Name>Weaponshield (Cooldown)</Name>
+                  <TriggerText>^Your weapons begin to spin.$</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>False</UseText>
+                  <DisplayText></DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>Weaponshield (Cooldown)</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>1410000</TimerMillisecondDuration>
+                  <TimerDuration>1410</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                  <TimerEndingTime>1</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>True</UseTimerEnded>
+                  <TimerEndedTrigger>
+                    <UseText>False</UseText>
+                    <DisplayText></DisplayText>
+                    <UseTextToVoice>True</UseTextToVoice>
+                    <InterruptSpeech>False</InterruptSpeech>
+                    <TextToVoiceText>{C} Weapon Shield Up!</TextToVoiceText>
+                    <PlayMediaFile>False</PlayMediaFile>
+                  </TimerEndedTrigger>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders />
+                </Trigger>
+                <Trigger>
+                  <Name>Bullseye (Duration)</Name>
+                  <TriggerText>^Your bow crackles with natural energy.$</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>True</UseText>
+                  <DisplayText>BE Running</DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>Bullseye (Duration)</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>210000</TimerMillisecondDuration>
+                  <TimerDuration>210</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                  <TimerEndingTime>1</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>False</UseTimerEnded>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders>
+                    <EarlyEnder>
+                      <EarlyEndText>The natural energy fades from your bow.</EarlyEndText>
+                      <EnableRegex>False</EnableRegex>
+                    </EarlyEnder>
+                  </TimerEarlyEnders>
+                </Trigger>
+                <Trigger>
+                  <Name>Warder's Wrath (Duration)</Name>
+                  <TriggerText>your muscles quiver with power</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>False</EnableRegex>
+                  <UseText>True</UseText>
+                  <DisplayText>Warder's Wrath -  WTF???</DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>Warder's Wrath</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>90000</TimerMillisecondDuration>
+                  <TimerDuration>90</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                  <TimerEndingTime>0</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>True</UseTimerEnded>
+                  <TimerEndedTrigger>
+                    <UseText>True</UseText>
+                    <DisplayText>Warder's fading</DisplayText>
+                    <UseTextToVoice>False</UseTextToVoice>
+                    <InterruptSpeech>False</InterruptSpeech>
+                    <TextToVoiceText></TextToVoiceText>
+                    <PlayMediaFile>False</PlayMediaFile>
+                  </TimerEndedTrigger>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders>
+                    <EarlyEnder>
+                      <EarlyEndText>Your fury fades</EarlyEndText>
+                      <EnableRegex>False</EnableRegex>
+                    </EarlyEnder>
+                  </TimerEarlyEnders>
+                </Trigger>
+              </Triggers>
+            </TriggerGroup>
+            <TriggerGroup>
+              <Name>Items</Name>
+              <Comments></Comments>
+              <SelfCommented>False</SelfCommented>
+              <GroupId>12</GroupId>
+              <EnableByDefault>False</EnableByDefault>
+              <Triggers>
+                <Trigger>
+                  <Name>Ranger Slow (Success)</Name>
+                  <TriggerText>^{s} is slowed by the embracing earth.$</TriggerText>
+                  <Comments>Ranger 1.0 (Slow) - Playtested. Will notify you if slow drops off mid fight.</Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>False</UseText>
+                  <DisplayText></DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>{s} Ranger Slow!</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>150000</TimerMillisecondDuration>
+                  <TimerDuration>150</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                  <TimerEndingTime>0</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>True</UseTimerEnded>
+                  <TimerEndedTrigger>
+                    <UseText>False</UseText>
+                    <DisplayText></DisplayText>
+                    <UseTextToVoice>True</UseTextToVoice>
+                    <InterruptSpeech>False</InterruptSpeech>
+                    <TextToVoiceText>Slow dropped from {s}</TextToVoiceText>
+                    <PlayMediaFile>False</PlayMediaFile>
+                  </TimerEndedTrigger>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders>
+                    <EarlyEnder>
+                      <EarlyEndText>Your Earthcall spell has worn off of {s}</EarlyEndText>
+                      <EnableRegex>True</EnableRegex>
+                    </EarlyEnder>
+                  </TimerEarlyEnders>
+                </Trigger>
+                <Trigger>
+                  <Name>Ranger 2.0 (Duration)</Name>
+                  <TriggerText>^You strike with the spirit of the falcon.$</TriggerText>
+                  <Comments>Made sure to include an end early text because ranger kill something light blue or higher proc is better than epic click.</Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>False</UseText>
+                  <DisplayText></DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>Ranger 2.0</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>60000</TimerMillisecondDuration>
+                  <TimerDuration>60</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                  <TimerEndingTime>1</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>False</UseTimerEnded>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders>
+                    <EarlyEnder>
+                      <EarlyEndText>The spirit of the falcon fades.</EarlyEndText>
+                      <EnableRegex>False</EnableRegex>
+                    </EarlyEnder>
+                  </TimerEarlyEnders>
+                </Trigger>
+                <Trigger>
+                  <Name>Ranger 2.0 (Cooldown)</Name>
+                  <TriggerText>^Your Aurora, the Heartwood Blade begins to glow.$</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>False</UseText>
+                  <DisplayText></DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>Ranger 2.0 (Cooldown)</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>180000</TimerMillisecondDuration>
+                  <TimerDuration>180</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                  <TimerEndingTime>1</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>False</UseTimerEnded>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders />
+                </Trigger>
+                <Trigger>
+                  <Name>BP Click (Cooldown)</Name>
+                  <TriggerText>Your {s} Natureward Coat begins to glow.</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>False</UseText>
+                  <DisplayText></DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>BP Click (Cooldown)</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>600000</TimerMillisecondDuration>
+                  <TimerDuration>600</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                  <TimerEndingTime>1</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>True</UseTimerEnded>
+                  <TimerEndedTrigger>
+                    <UseText>True</UseText>
+                    <DisplayText>BP Ready!</DisplayText>
+                    <UseTextToVoice>False</UseTextToVoice>
+                    <InterruptSpeech>False</InterruptSpeech>
+                    <TextToVoiceText></TextToVoiceText>
+                    <PlayMediaFile>False</PlayMediaFile>
+                  </TimerEndedTrigger>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders />
+                </Trigger>
+                <Trigger>
+                  <Name>BP Click (Duration)</Name>
+                  <TriggerText>^You harness the power of nature.$</TriggerText>
+                  <Comments>Stays on until the timer runs out, you use all the procs or you get dispelled or click it off.</Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>False</UseText>
+                  <DisplayText></DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>BP Click</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>120000</TimerMillisecondDuration>
+                  <TimerDuration>120</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                  <TimerEndingTime>1</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>False</UseTimerEnded>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders>
+                    <EarlyEnder>
+                      <EarlyEndText>You release the power.</EarlyEndText>
+                      <EnableRegex>False</EnableRegex>
+                    </EarlyEnder>
+                  </TimerEarlyEnders>
+                </Trigger>
+                <Trigger>
+                  <Name>Anguish BP (Cooldown)</Name>
+                  <TriggerText>You are surrounded by crackling energy</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>False</EnableRegex>
+                  <UseText>True</UseText>
+                  <DisplayText>Anguish BP</DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>Anguish BP (Cooldown)</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>300000</TimerMillisecondDuration>
+                  <TimerDuration>300</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                  <TimerEndingTime>0</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>True</UseTimerEnded>
+                  <TimerEndedTrigger>
+                    <UseText>True</UseText>
+                    <DisplayText>Anguish BP ready</DisplayText>
+                    <UseTextToVoice>False</UseTextToVoice>
+                    <InterruptSpeech>False</InterruptSpeech>
+                    <TextToVoiceText></TextToVoiceText>
+                    <PlayMediaFile>False</PlayMediaFile>
+                  </TimerEndedTrigger>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders />
+                </Trigger>
+              </Triggers>
+            </TriggerGroup>
+            <TriggerGroup>
+              <Name>Spells</Name>
+              <Comments></Comments>
+              <SelfCommented>False</SelfCommented>
+              <GroupId>13</GroupId>
+              <EnableByDefault>False</EnableByDefault>
+              <TriggerGroups>
+                <TriggerGroup>
+                  <Name>DoTs - Worn off</Name>
+                  <Comments></Comments>
+                  <SelfCommented>False</SelfCommented>
+                  <GroupId>14</GroupId>
+                  <EnableByDefault>False</EnableByDefault>
+                  <Triggers>
+                    <Trigger>
+                      <Name>DoT Worn Off - 1</Name>
+                      <TriggerText>your {s1} swarm {s2} spell has worn off</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>{s1} Swarm Down</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>NoTimer</TimerType>
+                      <TimerName></TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>0</TimerMillisecondDuration>
+                      <TimerDuration>0</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                    <Trigger>
+                      <Name>DoT Worn Off - 2</Name>
+                      <TriggerText>your swarm of {s} has worn off</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>Swarm of {s} has worn off</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>NoTimer</TimerType>
+                      <TimerName></TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>0</TimerMillisecondDuration>
+                      <TimerDuration>0</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>1</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                  </Triggers>
+                </TriggerGroup>
+                <TriggerGroup>
+                  <Name>Other</Name>
+                  <Comments></Comments>
+                  <SelfCommented>False</SelfCommented>
+                  <GroupId>15</GroupId>
+                  <EnableByDefault>False</EnableByDefault>
+                  <Triggers>
+                    <Trigger>
+                      <Name>Announced Shot</Name>
+                      <TriggerText>Is struck by an Announced Shot</TriggerText>
+                      <Comments>Announced Shot landed</Comments>
+                      <EnableRegex>False</EnableRegex>
+                      <UseText>True</UseText>
+                      <DisplayText>Announced Shot</DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Announced Shot</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>24000</TimerMillisecondDuration>
+                      <TimerDuration>24</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                      <TimerEndingTime>0</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders>
+                        <EarlyEnder>
+                          <EarlyEndText>Your Called Shots Effect spell has worn off</EarlyEndText>
+                          <EnableRegex>False</EnableRegex>
+                        </EarlyEnder>
+                      </TimerEarlyEnders>
+                    </Trigger>
+                  </Triggers>
+                </TriggerGroup>
+                <TriggerGroup>
+                  <Name>DoTs - Timers</Name>
+                  <Comments></Comments>
+                  <SelfCommented>False</SelfCommented>
+                  <GroupId>16</GroupId>
+                  <EnableByDefault>False</EnableByDefault>
+                  <Triggers>
+                    <Trigger>
+                      <Name>Sand Wasps</Name>
+                      <TriggerText>You begin casting Swarm of Sand Wasps{s}</TriggerText>
+                      <Comments></Comments>
+                      <EnableRegex>True</EnableRegex>
+                      <UseText>False</UseText>
+                      <DisplayText></DisplayText>
+                      <CopyToClipboard>False</CopyToClipboard>
+                      <ClipboardText></ClipboardText>
+                      <UseTextToVoice>False</UseTextToVoice>
+                      <InterruptSpeech>False</InterruptSpeech>
+                      <TextToVoiceText></TextToVoiceText>
+                      <PlayMediaFile>False</PlayMediaFile>
+                      <TimerType>Timer</TimerType>
+                      <TimerName>Sand Wasps</TimerName>
+                      <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                      <TimerMillisecondDuration>72000</TimerMillisecondDuration>
+                      <TimerDuration>72</TimerDuration>
+                      <TimerVisibleDuration>0</TimerVisibleDuration>
+                      <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                      <TimerEndingTime>1</TimerEndingTime>
+                      <UseTimerEnding>False</UseTimerEnding>
+                      <UseTimerEnded>False</UseTimerEnded>
+                      <UseCounterResetTimer>False</UseCounterResetTimer>
+                      <CounterResetDuration>0</CounterResetDuration>
+                      <Category>Default</Category>
+                      <Modified>2019-12-24T19:12:03</Modified>
+                      <UseFastCheck>True</UseFastCheck>
+                      <TimerEarlyEnders />
+                    </Trigger>
+                  </Triggers>
+                </TriggerGroup>
+              </TriggerGroups>
+            </TriggerGroup>
+            <TriggerGroup>
+              <Name>Spires</Name>
+              <Comments></Comments>
+              <SelfCommented>False</SelfCommented>
+              <GroupId>17</GroupId>
+              <EnableByDefault>False</EnableByDefault>
+              <Triggers>
+                <Trigger>
+                  <Name>Ranger Spires (Cooldown)</Name>
+                  <TriggerText>You begin casting {s} Spire of the Pathfinders.</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>False</UseText>
+                  <DisplayText></DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>RNG Spires (Cooldown)</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>600000</TimerMillisecondDuration>
+                  <TimerDuration>600</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+                  <TimerEndingTime>1</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>True</UseTimerEnded>
+                  <TimerEndedTrigger>
+                    <UseText>True</UseText>
+                    <DisplayText>Spire Up!</DisplayText>
+                    <UseTextToVoice>False</UseTextToVoice>
+                    <InterruptSpeech>False</InterruptSpeech>
+                    <TextToVoiceText></TextToVoiceText>
+                    <PlayMediaFile>False</PlayMediaFile>
+                  </TimerEndedTrigger>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders />
+                </Trigger>
+                <Trigger>
+                  <Name>Ranger Spires (Duration)</Name>
+                  <TriggerText>^You focus on the {s} spire of the pathfinders.$</TriggerText>
+                  <Comments></Comments>
+                  <EnableRegex>True</EnableRegex>
+                  <UseText>True</UseText>
+                  <DisplayText>RNG {s} Spire Running</DisplayText>
+                  <CopyToClipboard>False</CopyToClipboard>
+                  <ClipboardText></ClipboardText>
+                  <UseTextToVoice>False</UseTextToVoice>
+                  <InterruptSpeech>False</InterruptSpeech>
+                  <TextToVoiceText></TextToVoiceText>
+                  <PlayMediaFile>False</PlayMediaFile>
+                  <TimerType>Timer</TimerType>
+                  <TimerName>RNG {s} Spire</TimerName>
+                  <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+                  <TimerMillisecondDuration>90000</TimerMillisecondDuration>
+                  <TimerDuration>90</TimerDuration>
+                  <TimerVisibleDuration>0</TimerVisibleDuration>
+                  <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+                  <TimerEndingTime>0</TimerEndingTime>
+                  <UseTimerEnding>False</UseTimerEnding>
+                  <UseTimerEnded>True</UseTimerEnded>
+                  <TimerEndedTrigger>
+                    <UseText>False</UseText>
+                    <DisplayText></DisplayText>
+                    <UseTextToVoice>True</UseTextToVoice>
+                    <InterruptSpeech>False</InterruptSpeech>
+                    <TextToVoiceText>{C} Spire Down!</TextToVoiceText>
+                    <PlayMediaFile>False</PlayMediaFile>
+                  </TimerEndedTrigger>
+                  <UseCounterResetTimer>False</UseCounterResetTimer>
+                  <CounterResetDuration>0</CounterResetDuration>
+                  <Category>Default</Category>
+                  <Modified>2019-12-24T19:12:03</Modified>
+                  <UseFastCheck>True</UseFastCheck>
+                  <TimerEarlyEnders>
+                    <EarlyEnder>
+                      <EarlyEndText>The focus fades.</EarlyEndText>
+                      <EnableRegex>False</EnableRegex>
+                    </EarlyEnder>
+                  </TimerEarlyEnders>
+                </Trigger>
+              </Triggers>
+            </TriggerGroup>
+          </TriggerGroups>
+        </TriggerGroup>
+      </TriggerGroups>
+    </TriggerGroup>
+    <TriggerGroup>
+      <Name>EK Multiboxing</Name>
+      <Comments>Playing Characters</Comments>
+      <SelfCommented>False</SelfCommented>
+      <GroupId>18</GroupId>
+      <EnableByDefault>True</EnableByDefault>
+      <TriggerGroups>
+        <TriggerGroup>
+          <Name>Shaman</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>19</GroupId>
+          <EnableByDefault>True</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Turgur's Swawm</Name>
+              <TriggerText>{S} is diminished</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>Turgur's Swarm landed on {S}</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>Slowed</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-22T17:44:28</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Slowed</Name>
+              <TriggerText>{S} yawns.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} has Turgur's Insects</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-18T20:57:11</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Cannibalize Timer</Name>
+              <TriggerText>ody aches as your mind clears.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Cannibalize Timer</TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>120000</TimerMillisecondDuration>
+              <TimerDuration>120</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>True</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <TimerEndingTrigger>
+                <UseText>True</UseText>
+                <DisplayText>Cannibalize Available</DisplayText>
+                <UseTextToVoice>False</UseTextToVoice>
+                <InterruptSpeech>False</InterruptSpeech>
+                <TextToVoiceText></TextToVoiceText>
+                <PlayMediaFile>False</PlayMediaFile>
+              </TimerEndingTrigger>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-22T17:56:57</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+        <TriggerGroup>
+          <Name>Enchanter</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>20</GroupId>
+          <EnableByDefault>True</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Mezzed target</Name>
+              <TriggerText>{S} stands around looking utterly confused.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>Mezzed {S}</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>Mezzd</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-18T21:05:45</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Awakened</Name>
+              <TriggerText>{S} has been awakened by {S}</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>MOB awakened by {S}</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Bad things</Category>
+              <Modified>2020-01-22T17:58:52</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+        <TriggerGroup>
+          <Name>Common</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>21</GroupId>
+          <EnableByDefault>True</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Gift of Mana</Name>
+              <TriggerText>You have been granted gift of mana {S}!</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>Free Cast for {C}</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-18T20:39:24</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Spell fizzles</Name>
+              <TriggerText>Your spell fizzles!</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>{C} fizzles!</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Bad things</Category>
+              <Modified>2020-01-22T18:20:43</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Spell resisted</Name>
+              <TriggerText>resisted your {S}!</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>Resisted {S}</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Bad things</Category>
+              <Modified>2020-01-22T18:20:36</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+        <TriggerGroup>
+          <Name>Magician</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>22</GroupId>
+          <EnableByDefault>True</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Burnout</Name>
+              <TriggerText>{S} goes berzerk.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Burnout</TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>8136000</TimerMillisecondDuration>
+              <TimerDuration>8136</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-22T18:04:15</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+        <TriggerGroup>
+          <Name>Ranger</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>23</GroupId>
+          <EnableByDefault>True</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Marked Shots</Name>
+              <TriggerText>^You begin casting Marked Shots.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Marked Shots</TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>30000</TimerMillisecondDuration>
+              <TimerDuration>30</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>True</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <TimerEndingTrigger>
+                <UseText>True</UseText>
+                <DisplayText>Marked Shots is up</DisplayText>
+                <UseTextToVoice>False</UseTextToVoice>
+                <InterruptSpeech>False</InterruptSpeech>
+                <TextToVoiceText></TextToVoiceText>
+                <PlayMediaFile>False</PlayMediaFile>
+              </TimerEndingTrigger>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-22T18:10:33</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+      </TriggerGroups>
+    </TriggerGroup>
+  </TriggerGroups>
+  <Characters>
+    <Character>
+      <Name>Debian</Name>
+      <DisplayName>Debian (cazic)</DisplayName>
+      <AutoMonitor>True</AutoMonitor>
+      <VoiceName>Microsoft David Desktop</VoiceName>
+      <VoiceSpeed>0</VoiceSpeed>
+      <Volume>100</Volume>
+      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Debian_cazic.txt</LogFilePath>
+      <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
+      <TextStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TextStyle>
+      <TimerStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TimerStyle>
+      <TriggerGroups>
+        <TriggerGroup GroupId="18" />
+        <TriggerGroup GroupId="19" />
+        <TriggerGroup GroupId="20" />
+        <TriggerGroup GroupId="21" />
+        <TriggerGroup GroupId="22" />
+        <TriggerGroup GroupId="23" />
+      </TriggerGroups>
+      <Categories>
+        <Category>
+          <Name>Default</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FF008000</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+        <Category>
+          <Name>Bad things</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+      </Categories>
+    </Character>
+    <Character>
+      <Name>Shefla</Name>
+      <DisplayName>Shefla (cazic)</DisplayName>
+      <AutoMonitor>True</AutoMonitor>
+      <VoiceName>Microsoft Zira Desktop</VoiceName>
+      <VoiceSpeed>0</VoiceSpeed>
+      <Volume>100</Volume>
+      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Shefla_cazic.txt</LogFilePath>
+      <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
+      <TextStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TextStyle>
+      <TimerStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TimerStyle>
+      <TriggerGroups>
+        <TriggerGroup GroupId="18" />
+        <TriggerGroup GroupId="19" />
+        <TriggerGroup GroupId="21" />
+      </TriggerGroups>
+      <Categories>
+        <Category>
+          <Name>Default</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+        <Category>
+          <Name>Bad things</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+      </Categories>
+    </Character>
+    <Character>
+      <Name>Bakhardi</Name>
+      <DisplayName>Bakhardi (cazic)</DisplayName>
+      <AutoMonitor>True</AutoMonitor>
+      <VoiceName>Microsoft David Desktop</VoiceName>
+      <VoiceSpeed>0</VoiceSpeed>
+      <Volume>100</Volume>
+      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Bakhardi_cazic.txt</LogFilePath>
+      <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
+      <TextStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TextStyle>
+      <TimerStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TimerStyle>
+      <TriggerGroups>
+        <TriggerGroup GroupId="18" />
+        <TriggerGroup GroupId="21" />
+      </TriggerGroups>
+      <Categories>
+        <Category>
+          <Name>Default</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+        <Category>
+          <Name>Bad things</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+      </Categories>
+    </Character>
+    <Character>
+      <Name>Zicon</Name>
+      <DisplayName>Zicon (cazic)</DisplayName>
+      <AutoMonitor>True</AutoMonitor>
+      <VoiceName>Microsoft David Desktop</VoiceName>
+      <VoiceSpeed>0</VoiceSpeed>
+      <Volume>100</Volume>
+      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Zicon_cazic.txt</LogFilePath>
+      <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
+      <TextStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TextStyle>
+      <TimerStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TimerStyle>
+      <TriggerGroups>
+        <TriggerGroup GroupId="18" />
+        <TriggerGroup GroupId="21" />
+        <TriggerGroup GroupId="22" />
+      </TriggerGroups>
+      <Categories>
+        <Category>
+          <Name>Default</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+        <Category>
+          <Name>Bad things</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+      </Categories>
+    </Character>
+    <Character>
+      <Name>Ahzzi</Name>
+      <DisplayName>Ahzzi (cazic)</DisplayName>
+      <AutoMonitor>True</AutoMonitor>
+      <VoiceName>Microsoft David Desktop</VoiceName>
+      <VoiceSpeed>0</VoiceSpeed>
+      <Volume>100</Volume>
+      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Ahzzi_cazic.txt</LogFilePath>
+      <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
+      <TextStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TextStyle>
+      <TimerStyle>
+        <FontColor>#FFFFFF00</FontColor>
+        <ShadowColor>#FF000000</ShadowColor>
+        <ShadowDepth>5</ShadowDepth>
+        <TimerBarColor>#FF800000</TimerBarColor>
+      </TimerStyle>
+      <TriggerGroups>
+        <TriggerGroup GroupId="18" />
+        <TriggerGroup GroupId="21" />
+        <TriggerGroup GroupId="20" />
+      </TriggerGroups>
+      <Categories>
+        <Category>
+          <Name>Default</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+        <Category>
+          <Name>Bad things</Name>
+          <TextOverlaySource>FromCategory</TextOverlaySource>
+          <TextOverlay>Default</TextOverlay>
+          <TextStyleSource>FromCategory</TextStyleSource>
+          <TextStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TextStyle>
+          <TimerOverlaySource>FromCategory</TimerOverlaySource>
+          <TimerOverlay>Default</TimerOverlay>
+          <TimerStyleSource>FromCategory</TimerStyleSource>
+          <TimerStyle>
+            <FontColor>#FFFFFF00</FontColor>
+            <ShadowColor>#FF000000</ShadowColor>
+            <ShadowDepth>5</ShadowDepth>
+            <TimerBarColor>#FF800000</TimerBarColor>
+          </TimerStyle>
+        </Category>
+      </Categories>
+    </Character>
+  </Characters>
+</Configuration>

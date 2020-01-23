@@ -1,0 +1,12 @@
+Object reference not set to an instance of an object.
+   at GimaSoft.Business.GINA.MatchHelper.IsMatch(String str)
+   at GimaSoft.Business.GINA.TriggerFilter.IsMatch(String str)
+   at GimaSoft.Business.GINA.GINACharacter.ProcessText(String str)
+   at GimaSoft.Business.GINA.GINACharacter.ProcessStream(StreamReader sr)
+   at GimaSoft.Business.GINA.GINACharacter.LogFileWatcher_Changed(Object sender, FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(Int32 action, String name)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+
+Crash version: 1.0.24.3
