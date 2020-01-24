@@ -12,7 +12,7 @@
     <ShareServiceUri>https://eq.gimasoft.com/GINAServices/Package.svc</ShareServiceUri>
     <AutoUpdate>True</AutoUpdate>
     <ImportedMediaFileFolder>C:\Users\kevin\AppData\Local\GimaSoft\GINA\ImportedMediaFiles</ImportedMediaFileFolder>
-    <EverquestFolder>C:\Games\EverQuest</EverquestFolder>
+    <EverquestFolder>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest</EverquestFolder>
     <RepositoryLastViewed>1/18/2020 3:03:36 PM -06:00</RepositoryLastViewed>
     <MinimizeToSystemTray>False</MinimizeToSystemTray>
     <CheckLibraryAtStartup>False</CheckLibraryAtStartup>
@@ -2149,42 +2149,12 @@
           <EnableByDefault>True</EnableByDefault>
           <Triggers>
             <Trigger>
-              <Name>Turgur's Swawm</Name>
-              <TriggerText>{S} is diminished</TriggerText>
-              <Comments></Comments>
-              <EnableRegex>True</EnableRegex>
-              <UseText>True</UseText>
-              <DisplayText>Turgur's Swarm landed on {S}</DisplayText>
-              <CopyToClipboard>False</CopyToClipboard>
-              <ClipboardText></ClipboardText>
-              <UseTextToVoice>True</UseTextToVoice>
-              <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText>Slowed</TextToVoiceText>
-              <PlayMediaFile>False</PlayMediaFile>
-              <TimerType>NoTimer</TimerType>
-              <TimerName></TimerName>
-              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
-              <TimerMillisecondDuration>0</TimerMillisecondDuration>
-              <TimerDuration>0</TimerDuration>
-              <TimerVisibleDuration>0</TimerVisibleDuration>
-              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
-              <TimerEndingTime>1</TimerEndingTime>
-              <UseTimerEnding>False</UseTimerEnding>
-              <UseTimerEnded>False</UseTimerEnded>
-              <UseCounterResetTimer>False</UseCounterResetTimer>
-              <CounterResetDuration>0</CounterResetDuration>
-              <Category>Default</Category>
-              <Modified>2020-01-22T17:44:28</Modified>
-              <UseFastCheck>False</UseFastCheck>
-              <TimerEarlyEnders />
-            </Trigger>
-            <Trigger>
               <Name>Slowed</Name>
               <TriggerText>{S} yawns.</TriggerText>
               <Comments></Comments>
               <EnableRegex>True</EnableRegex>
               <UseText>True</UseText>
-              <DisplayText>{S} has Turgur's Insects</DisplayText>
+              <DisplayText>{S} was slowed</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
               <UseTextToVoice>False</UseTextToVoice>
@@ -2204,7 +2174,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-18T20:57:11</Modified>
+              <Modified>2020-01-23T21:59:35</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2268,11 +2238,11 @@
               <InterruptSpeech>False</InterruptSpeech>
               <TextToVoiceText>Mezzd</TextToVoiceText>
               <PlayMediaFile>False</PlayMediaFile>
-              <TimerType>NoTimer</TimerType>
-              <TimerName></TimerName>
+              <TimerType>Timer</TimerType>
+              <TimerName>Mezzed {S} </TimerName>
               <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
-              <TimerMillisecondDuration>0</TimerMillisecondDuration>
-              <TimerDuration>0</TimerDuration>
+              <TimerMillisecondDuration>56000</TimerMillisecondDuration>
+              <TimerDuration>56</TimerDuration>
               <TimerVisibleDuration>0</TimerVisibleDuration>
               <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
               <TimerEndingTime>1</TimerEndingTime>
@@ -2280,8 +2250,8 @@
               <UseTimerEnded>False</UseTimerEnded>
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
-              <Category>Default</Category>
-              <Modified>2020-01-18T21:05:45</Modified>
+              <Category>Bad things</Category>
+              <Modified>2020-01-23T22:02:03</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2481,7 +2451,7 @@
               <TimerMillisecondDuration>30000</TimerMillisecondDuration>
               <TimerDuration>30</TimerDuration>
               <TimerVisibleDuration>0</TimerVisibleDuration>
-              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
               <TimerEndingTime>1</TimerEndingTime>
               <UseTimerEnding>True</UseTimerEnding>
               <UseTimerEnded>False</UseTimerEnded>
@@ -2496,7 +2466,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-22T18:10:33</Modified>
+              <Modified>2020-01-23T22:00:22</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2513,7 +2483,7 @@
       <VoiceName>Microsoft David Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Debian_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Debian_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2587,7 +2557,7 @@
       <VoiceName>Microsoft Zira Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Shefla_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Shefla_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2658,7 +2628,7 @@
       <VoiceName>Microsoft David Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Bakhardi_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Bakhardi_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2728,7 +2698,7 @@
       <VoiceName>Microsoft David Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Zicon_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Zicon_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2799,7 +2769,7 @@
       <VoiceName>Microsoft David Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Ahzzi_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Ahzzi_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>

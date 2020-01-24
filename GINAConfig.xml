@@ -12,7 +12,7 @@
     <ShareServiceUri>https://eq.gimasoft.com/GINAServices/Package.svc</ShareServiceUri>
     <AutoUpdate>True</AutoUpdate>
     <ImportedMediaFileFolder>C:\Users\kevin\AppData\Local\GimaSoft\GINA\ImportedMediaFiles</ImportedMediaFileFolder>
-    <EverquestFolder>C:\Games\EverQuest</EverquestFolder>
+    <EverquestFolder>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest</EverquestFolder>
     <RepositoryLastViewed>1/18/2020 3:03:36 PM -06:00</RepositoryLastViewed>
     <MinimizeToSystemTray>False</MinimizeToSystemTray>
     <CheckLibraryAtStartup>False</CheckLibraryAtStartup>
@@ -131,7 +131,7 @@
       <BehaviorType>Timer</BehaviorType>
       <Name>Overlay #1</Name>
       <FontName>Arial</FontName>
-      <FontSize>7</FontSize>
+      <FontSize>24</FontSize>
       <GroupByCharacter>True</GroupByCharacter>
       <SortMethod>TimeRemaining</SortMethod>
       <TextFadeTime>10</TextFadeTime>
@@ -154,10 +154,10 @@
             <Y>-1</Y>
           </maxPosition>
           <normalPosition>
-            <Left>26</Left>
-            <Top>85</Top>
-            <Right>626</Right>
-            <Bottom>426</Bottom>
+            <Left>1103</Left>
+            <Top>55</Top>
+            <Right>1703</Right>
+            <Bottom>396</Bottom>
           </normalPosition>
         </WINDOWPLACEMENT>
       </WindowLayout>
@@ -189,7 +189,7 @@
             <Y>-1</Y>
           </maxPosition>
           <normalPosition>
-            <Left>1263</Left>
+            <Left>1017</Left>
             <Top>7</Top>
             <Right>1663</Right>
             <Bottom>207</Bottom>
@@ -2149,12 +2149,12 @@
           <EnableByDefault>True</EnableByDefault>
           <Triggers>
             <Trigger>
-              <Name>Turgur's Swawm</Name>
-              <TriggerText>{S} is diminished</TriggerText>
+              <Name>Slowed</Name>
+              <TriggerText>{S} yawns.</TriggerText>
               <Comments></Comments>
               <EnableRegex>True</EnableRegex>
               <UseText>True</UseText>
-              <DisplayText>Turgur's Swarm landed on {S}</DisplayText>
+              <DisplayText>{S} was slowed</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
               <UseTextToVoice>True</UseTextToVoice>
@@ -2174,37 +2174,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-22T17:44:28</Modified>
-              <UseFastCheck>False</UseFastCheck>
-              <TimerEarlyEnders />
-            </Trigger>
-            <Trigger>
-              <Name>Slowed</Name>
-              <TriggerText>{S} yawns.</TriggerText>
-              <Comments></Comments>
-              <EnableRegex>True</EnableRegex>
-              <UseText>True</UseText>
-              <DisplayText>{S} has Turgur's Insects</DisplayText>
-              <CopyToClipboard>False</CopyToClipboard>
-              <ClipboardText></ClipboardText>
-              <UseTextToVoice>False</UseTextToVoice>
-              <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText></TextToVoiceText>
-              <PlayMediaFile>False</PlayMediaFile>
-              <TimerType>NoTimer</TimerType>
-              <TimerName></TimerName>
-              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
-              <TimerMillisecondDuration>0</TimerMillisecondDuration>
-              <TimerDuration>0</TimerDuration>
-              <TimerVisibleDuration>0</TimerVisibleDuration>
-              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
-              <TimerEndingTime>1</TimerEndingTime>
-              <UseTimerEnding>False</UseTimerEnding>
-              <UseTimerEnded>False</UseTimerEnded>
-              <UseCounterResetTimer>False</UseCounterResetTimer>
-              <CounterResetDuration>0</CounterResetDuration>
-              <Category>Default</Category>
-              <Modified>2020-01-18T20:57:11</Modified>
+              <Modified>2020-01-23T22:14:20</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2246,6 +2216,36 @@
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
+            <Trigger>
+              <Name>Shaman Spire</Name>
+              <TriggerText>You focus on the spire of ancestors</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Shaman Spire</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:40:27</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
           </Triggers>
         </TriggerGroup>
         <TriggerGroup>
@@ -2268,11 +2268,11 @@
               <InterruptSpeech>False</InterruptSpeech>
               <TextToVoiceText>Mezzd</TextToVoiceText>
               <PlayMediaFile>False</PlayMediaFile>
-              <TimerType>NoTimer</TimerType>
-              <TimerName></TimerName>
+              <TimerType>Timer</TimerType>
+              <TimerName>Mezzed {S} </TimerName>
               <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
-              <TimerMillisecondDuration>0</TimerMillisecondDuration>
-              <TimerDuration>0</TimerDuration>
+              <TimerMillisecondDuration>56000</TimerMillisecondDuration>
+              <TimerDuration>56</TimerDuration>
               <TimerVisibleDuration>0</TimerVisibleDuration>
               <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
               <TimerEndingTime>1</TimerEndingTime>
@@ -2280,8 +2280,8 @@
               <UseTimerEnded>False</UseTimerEnded>
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
-              <Category>Default</Category>
-              <Modified>2020-01-18T21:05:45</Modified>
+              <Category>Bad things</Category>
+              <Modified>2020-01-23T22:21:11</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2313,6 +2313,36 @@
               <Category>Bad things</Category>
               <Modified>2020-01-22T17:58:52</Modified>
               <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Chanter Spire</Name>
+              <TriggerText>You focus on the spire of enchantment</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Chanter Spire</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:40:27</Modified>
+              <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
           </Triggers>
@@ -2453,6 +2483,36 @@
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
+            <Trigger>
+              <Name>Mage Spire</Name>
+              <TriggerText>You focus on the spire of elements</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Mage Spire</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:40:27</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
           </Triggers>
         </TriggerGroup>
         <TriggerGroup>
@@ -2464,7 +2524,7 @@
           <Triggers>
             <Trigger>
               <Name>Marked Shots</Name>
-              <TriggerText>^You begin casting Marked Shots.</TriggerText>
+              <TriggerText>{S} is struck by a called shot</TriggerText>
               <Comments></Comments>
               <EnableRegex>True</EnableRegex>
               <UseText>False</UseText>
@@ -2481,7 +2541,7 @@
               <TimerMillisecondDuration>30000</TimerMillisecondDuration>
               <TimerDuration>30</TimerDuration>
               <TimerVisibleDuration>0</TimerVisibleDuration>
-              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
               <TimerEndingTime>1</TimerEndingTime>
               <UseTimerEnding>True</UseTimerEnding>
               <UseTimerEnded>False</UseTimerEnded>
@@ -2496,8 +2556,77 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-22T18:10:33</Modified>
-              <UseFastCheck>True</UseFastCheck>
+              <Modified>2020-01-23T22:31:43</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Ranger Spire</Name>
+              <TriggerText>You focus on the spire of the pathfinders</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Ranger Spire of the Pathfinders</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:42:08</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+        <TriggerGroup>
+          <Name>Necro</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>27</GroupId>
+          <EnableByDefault>False</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Necro Spire</Name>
+              <TriggerText>You focus on the spire of necromancy</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Necro Spire</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:40:27</Modified>
+              <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
           </Triggers>
@@ -2513,7 +2642,7 @@
       <VoiceName>Microsoft David Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Debian_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Debian_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2534,6 +2663,7 @@
         <TriggerGroup GroupId="21" />
         <TriggerGroup GroupId="22" />
         <TriggerGroup GroupId="23" />
+        <TriggerGroup GroupId="27" />
       </TriggerGroups>
       <Categories>
         <Category>
@@ -2587,7 +2717,7 @@
       <VoiceName>Microsoft Zira Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Shefla_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Shefla_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2658,7 +2788,7 @@
       <VoiceName>Microsoft David Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Bakhardi_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Bakhardi_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2728,7 +2858,7 @@
       <VoiceName>Microsoft David Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Zicon_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Zicon_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2799,7 +2929,7 @@
       <VoiceName>Microsoft David Desktop</VoiceName>
       <VoiceSpeed>0</VoiceSpeed>
       <Volume>100</Volume>
-      <LogFilePath>C:\Games\EverQuest\Logs\eqlog_Ahzzi_cazic.txt</LogFilePath>
+      <LogFilePath>C:\Users\Public\Daybreak Game Company\Installed Games\Everquest\Logs\eqlog_Ahzzi_cazic.txt</LogFilePath>
       <LastArchiveDate>0001-01-01T00:00:00</LastArchiveDate>
       <TextStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2817,6 +2947,7 @@
         <TriggerGroup GroupId="18" />
         <TriggerGroup GroupId="21" />
         <TriggerGroup GroupId="20" />
+        <TriggerGroup GroupId="19" />
       </TriggerGroups>
       <Categories>
         <Category>
