@@ -224,12 +224,12 @@
       <TextOverlay>Bad Things</TextOverlay>
       <TextStyleSource>None</TextStyleSource>
       <TextStyle>
-        <FontColor>#FFFF0000</FontColor>
+        <FontColor>#FFFFA500</FontColor>
         <ShadowColor>#FF000000</ShadowColor>
         <ShadowDepth>5</ShadowDepth>
         <TimerBarColor>#FF800000</TimerBarColor>
       </TextStyle>
-      <TimerOverlay>Default</TimerOverlay>
+      <TimerOverlay>Overlay #1</TimerOverlay>
       <TimerStyleSource>None</TimerStyleSource>
       <TimerStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2294,9 +2294,9 @@
               <DisplayText>MOB awakened by {S}</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
-              <UseTextToVoice>False</UseTextToVoice>
+              <UseTextToVoice>True</UseTextToVoice>
               <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText></TextToVoiceText>
+              <TextToVoiceText>AWAKENED</TextToVoiceText>
               <PlayMediaFile>False</PlayMediaFile>
               <TimerType>NoTimer</TimerType>
               <TimerName></TimerName>
@@ -2311,7 +2311,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Bad things</Category>
-              <Modified>2020-01-22T17:58:52</Modified>
+              <Modified>2020-01-27T18:24:40</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2441,6 +2441,36 @@
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Bad things</Category>
               <Modified>2020-01-22T18:20:36</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Spell Worn Off</Name>
+              <TriggerText>Your {S} has worn off of {S1}</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} dropped on {S1}</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-27T18:45:34</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2658,12 +2688,8 @@
       </TimerStyle>
       <TriggerGroups>
         <TriggerGroup GroupId="18" />
-        <TriggerGroup GroupId="19" />
-        <TriggerGroup GroupId="20" />
         <TriggerGroup GroupId="21" />
-        <TriggerGroup GroupId="22" />
         <TriggerGroup GroupId="23" />
-        <TriggerGroup GroupId="27" />
       </TriggerGroups>
       <Categories>
         <Category>
@@ -2805,6 +2831,7 @@
       <TriggerGroups>
         <TriggerGroup GroupId="18" />
         <TriggerGroup GroupId="21" />
+        <TriggerGroup GroupId="27" />
       </TriggerGroups>
       <Categories>
         <Category>
@@ -2947,7 +2974,6 @@
         <TriggerGroup GroupId="18" />
         <TriggerGroup GroupId="21" />
         <TriggerGroup GroupId="20" />
-        <TriggerGroup GroupId="19" />
       </TriggerGroups>
       <Categories>
         <Category>

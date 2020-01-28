@@ -131,7 +131,7 @@
       <BehaviorType>Timer</BehaviorType>
       <Name>Overlay #1</Name>
       <FontName>Arial</FontName>
-      <FontSize>7</FontSize>
+      <FontSize>24</FontSize>
       <GroupByCharacter>True</GroupByCharacter>
       <SortMethod>TimeRemaining</SortMethod>
       <TextFadeTime>10</TextFadeTime>
@@ -154,10 +154,10 @@
             <Y>-1</Y>
           </maxPosition>
           <normalPosition>
-            <Left>26</Left>
-            <Top>85</Top>
-            <Right>626</Right>
-            <Bottom>426</Bottom>
+            <Left>1103</Left>
+            <Top>55</Top>
+            <Right>1703</Right>
+            <Bottom>396</Bottom>
           </normalPosition>
         </WINDOWPLACEMENT>
       </WindowLayout>
@@ -189,7 +189,7 @@
             <Y>-1</Y>
           </maxPosition>
           <normalPosition>
-            <Left>1263</Left>
+            <Left>1017</Left>
             <Top>7</Top>
             <Right>1663</Right>
             <Bottom>207</Bottom>
@@ -224,12 +224,12 @@
       <TextOverlay>Bad Things</TextOverlay>
       <TextStyleSource>None</TextStyleSource>
       <TextStyle>
-        <FontColor>#FFFF0000</FontColor>
+        <FontColor>#FFFFA500</FontColor>
         <ShadowColor>#FF000000</ShadowColor>
         <ShadowDepth>5</ShadowDepth>
         <TimerBarColor>#FF800000</TimerBarColor>
       </TextStyle>
-      <TimerOverlay>Default</TimerOverlay>
+      <TimerOverlay>Overlay #1</TimerOverlay>
       <TimerStyleSource>None</TimerStyleSource>
       <TimerStyle>
         <FontColor>#FFFFFF00</FontColor>
@@ -2157,9 +2157,9 @@
               <DisplayText>{S} was slowed</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
-              <UseTextToVoice>False</UseTextToVoice>
+              <UseTextToVoice>True</UseTextToVoice>
               <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText></TextToVoiceText>
+              <TextToVoiceText>Slowed</TextToVoiceText>
               <PlayMediaFile>False</PlayMediaFile>
               <TimerType>NoTimer</TimerType>
               <TimerName></TimerName>
@@ -2174,7 +2174,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-23T21:59:35</Modified>
+              <Modified>2020-01-23T22:14:20</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2216,6 +2216,36 @@
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
+            <Trigger>
+              <Name>Shaman Spire</Name>
+              <TriggerText>You focus on the spire of ancestors</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Shaman Spire</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:40:27</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
           </Triggers>
         </TriggerGroup>
         <TriggerGroup>
@@ -2251,7 +2281,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Bad things</Category>
-              <Modified>2020-01-23T22:02:03</Modified>
+              <Modified>2020-01-23T22:21:11</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2283,6 +2313,36 @@
               <Category>Bad things</Category>
               <Modified>2020-01-22T17:58:52</Modified>
               <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Chanter Spire</Name>
+              <TriggerText>You focus on the spire of enchantment</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Chanter Spire</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:40:27</Modified>
+              <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
           </Triggers>
@@ -2423,6 +2483,36 @@
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
+            <Trigger>
+              <Name>Mage Spire</Name>
+              <TriggerText>You focus on the spire of elements</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Mage Spire</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:40:27</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
           </Triggers>
         </TriggerGroup>
         <TriggerGroup>
@@ -2434,7 +2524,7 @@
           <Triggers>
             <Trigger>
               <Name>Marked Shots</Name>
-              <TriggerText>^You begin casting Marked Shots.</TriggerText>
+              <TriggerText>{S} is struck by a called shot</TriggerText>
               <Comments></Comments>
               <EnableRegex>True</EnableRegex>
               <UseText>False</UseText>
@@ -2466,8 +2556,77 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-23T22:00:22</Modified>
-              <UseFastCheck>True</UseFastCheck>
+              <Modified>2020-01-23T22:31:43</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Ranger Spire</Name>
+              <TriggerText>You focus on the spire of the pathfinders</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Ranger Spire of the Pathfinders</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:42:08</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+        <TriggerGroup>
+          <Name>Necro</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>27</GroupId>
+          <EnableByDefault>False</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Necro Spire</Name>
+              <TriggerText>You focus on the spire of necromancy</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>Necro Spire</TimerName>
+              <RestartBasedOnTimerName>False</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>450000</TimerMillisecondDuration>
+              <TimerDuration>450</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-23T22:40:27</Modified>
+              <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
           </Triggers>
@@ -2499,10 +2658,7 @@
       </TimerStyle>
       <TriggerGroups>
         <TriggerGroup GroupId="18" />
-        <TriggerGroup GroupId="19" />
-        <TriggerGroup GroupId="20" />
         <TriggerGroup GroupId="21" />
-        <TriggerGroup GroupId="22" />
         <TriggerGroup GroupId="23" />
       </TriggerGroups>
       <Categories>
@@ -2645,6 +2801,7 @@
       <TriggerGroups>
         <TriggerGroup GroupId="18" />
         <TriggerGroup GroupId="21" />
+        <TriggerGroup GroupId="27" />
       </TriggerGroups>
       <Categories>
         <Category>
