@@ -2435,6 +2435,36 @@
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
+            <Trigger>
+              <Name>Hastening of Milyex </Name>
+              <TriggerText>Hastening of Milyex {S} has worn off {S1}</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S1} has lost Hastening of Milyex</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-27T19:47:41</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
           </Triggers>
         </TriggerGroup>
         <TriggerGroup>
@@ -2603,6 +2633,36 @@
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
+            <Trigger>
+              <Name>FLames</Name>
+              <TriggerText>Flames of Power</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>FOP TRIGGERED</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-27T19:42:56</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
           </Triggers>
         </TriggerGroup>
         <TriggerGroup>
@@ -2682,11 +2742,11 @@
             </Trigger>
             <Trigger>
               <Name>Headshot</Name>
-              <TriggerText>Headshot)</TriggerText>
+              <TriggerText>You shoot {S} for {N} points of damage. ({S1} Headshot)</TriggerText>
               <Comments></Comments>
-              <EnableRegex>False</EnableRegex>
+              <EnableRegex>True</EnableRegex>
               <UseText>True</UseText>
-              <DisplayText>{C} Scores a Headshot - Count: {COUNTER}</DisplayText>
+              <DisplayText>{C} Scores a Headshot -  Headshot Count: {COUNTER}</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
               <UseTextToVoice>False</UseTextToVoice>
@@ -2706,7 +2766,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-27T19:20:44</Modified>
+              <Modified>2020-01-27T20:07:32</Modified>
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>

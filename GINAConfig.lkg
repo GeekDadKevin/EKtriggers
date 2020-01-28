@@ -2414,9 +2414,9 @@
               <DisplayText>{S} is mezzed</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
-              <UseTextToVoice>False</UseTextToVoice>
+              <UseTextToVoice>True</UseTextToVoice>
               <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText></TextToVoiceText>
+              <TextToVoiceText>MEZZED</TextToVoiceText>
               <PlayMediaFile>False</PlayMediaFile>
               <TimerType>NoTimer</TimerType>
               <TimerName></TimerName>
@@ -2431,7 +2431,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-27T19:37:32</Modified>
+              <Modified>2020-01-27T19:38:49</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
