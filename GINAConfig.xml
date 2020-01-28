@@ -2746,7 +2746,7 @@
               <Comments></Comments>
               <EnableRegex>True</EnableRegex>
               <UseText>True</UseText>
-              <DisplayText>{C} Scores a Headshot -  Headshot Count: {COUNTER}</DisplayText>
+              <DisplayText>{C} Scores a Headshot for {N} - Headshot Count: {COUNTER}</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
               <UseTextToVoice>False</UseTextToVoice>
@@ -2766,7 +2766,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-27T20:07:32</Modified>
+              <Modified>2020-01-27T20:18:19</Modified>
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
