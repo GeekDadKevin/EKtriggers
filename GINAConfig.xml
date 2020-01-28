@@ -2246,6 +2246,96 @@
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
+            <Trigger>
+              <Name>Talisman of the Unwavering</Name>
+              <TriggerText>^Your Talisman of the Unwavering spell has worn off of {S}.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} lost Talisman of the Unwavering</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Bad things</Category>
+              <Modified>2020-01-27T19:32:25</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Acumen of Dar Khura</Name>
+              <TriggerText>Your Acumen of Dar Khura spell has worn off of {S}</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} lost Acumen of Dar Khura</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Bad things</Category>
+              <Modified>2020-01-27T19:32:19</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Talisman of the Tribunal</Name>
+              <TriggerText>Your Talisman of the Tribunal spell has worn off of {S}</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} lost  Talisman of the Tribunal</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Bad things</Category>
+              <Modified>2020-01-27T19:32:12</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
           </Triggers>
         </TriggerGroup>
         <TriggerGroup>
@@ -2257,11 +2347,11 @@
           <Triggers>
             <Trigger>
               <Name>Awakened</Name>
-              <TriggerText>{S} has been awakened by {S}</TriggerText>
+              <TriggerText>{S} has been awakened by {S1}</TriggerText>
               <Comments></Comments>
               <EnableRegex>True</EnableRegex>
               <UseText>True</UseText>
-              <DisplayText>MOB awakened by {S}</DisplayText>
+              <DisplayText>{S} awakened by {S1}</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
               <UseTextToVoice>True</UseTextToVoice>
@@ -2281,7 +2371,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Bad things</Category>
-              <Modified>2020-01-27T18:24:40</Modified>
+              <Modified>2020-01-27T19:35:53</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2313,6 +2403,36 @@
               <Category>Default</Category>
               <Modified>2020-01-23T22:40:27</Modified>
               <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Mezzed</Name>
+              <TriggerText>{S} stands around looking utterly confused.</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} is mezzed</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-27T19:37:32</Modified>
+              <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
           </Triggers>
@@ -2410,37 +2530,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Bad things</Category>
-              <Modified>2020-01-22T18:20:36</Modified>
-              <UseFastCheck>True</UseFastCheck>
-              <TimerEarlyEnders />
-            </Trigger>
-            <Trigger>
-              <Name>Spell Worn Off</Name>
-              <TriggerText>Your {S} has worn off of {S1}</TriggerText>
-              <Comments></Comments>
-              <EnableRegex>True</EnableRegex>
-              <UseText>True</UseText>
-              <DisplayText>{S} dropped on {S1}</DisplayText>
-              <CopyToClipboard>False</CopyToClipboard>
-              <ClipboardText></ClipboardText>
-              <UseTextToVoice>False</UseTextToVoice>
-              <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText></TextToVoiceText>
-              <PlayMediaFile>False</PlayMediaFile>
-              <TimerType>NoTimer</TimerType>
-              <TimerName></TimerName>
-              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
-              <TimerMillisecondDuration>0</TimerMillisecondDuration>
-              <TimerDuration>0</TimerDuration>
-              <TimerVisibleDuration>0</TimerVisibleDuration>
-              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
-              <TimerEndingTime>1</TimerEndingTime>
-              <UseTimerEnding>False</UseTimerEnding>
-              <UseTimerEnded>False</UseTimerEnded>
-              <UseCounterResetTimer>False</UseCounterResetTimer>
-              <CounterResetDuration>0</CounterResetDuration>
-              <Category>Default</Category>
-              <Modified>2020-01-27T18:45:34</Modified>
+              <Modified>2020-01-27T19:36:01</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2592,16 +2682,16 @@
             </Trigger>
             <Trigger>
               <Name>Headshot</Name>
-              <TriggerText>performed a FATAL BOW SHOT</TriggerText>
+              <TriggerText>Headshot)</TriggerText>
               <Comments></Comments>
               <EnableRegex>False</EnableRegex>
               <UseText>True</UseText>
-              <DisplayText>HEADSHOT</DisplayText>
+              <DisplayText>{C} Scores a Headshot - Count: {COUNTER}</DisplayText>
               <CopyToClipboard>False</CopyToClipboard>
               <ClipboardText></ClipboardText>
-              <UseTextToVoice>True</UseTextToVoice>
+              <UseTextToVoice>False</UseTextToVoice>
               <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText>FUCK YA</TextToVoiceText>
+              <TextToVoiceText></TextToVoiceText>
               <PlayMediaFile>False</PlayMediaFile>
               <TimerType>NoTimer</TimerType>
               <TimerName></TimerName>
@@ -2616,7 +2706,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-27T19:14:00</Modified>
+              <Modified>2020-01-27T19:20:44</Modified>
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2657,6 +2747,45 @@
               <Category>Default</Category>
               <Modified>2020-01-23T22:40:27</Modified>
               <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+          </Triggers>
+        </TriggerGroup>
+        <TriggerGroup>
+          <Name>Disabled</Name>
+          <Comments></Comments>
+          <SelfCommented>False</SelfCommented>
+          <GroupId>28</GroupId>
+          <EnableByDefault>True</EnableByDefault>
+          <Triggers>
+            <Trigger>
+              <Name>Spell Worn Off</Name>
+              <TriggerText>Your {S} has worn off of {S1}</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>{S} dropped on {S1}</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-27T18:45:34</Modified>
+              <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
           </Triggers>
