@@ -131,7 +131,7 @@
       <BehaviorType>Timer</BehaviorType>
       <Name>Overlay #1</Name>
       <FontName>Arial</FontName>
-      <FontSize>24</FontSize>
+      <FontSize>15</FontSize>
       <GroupByCharacter>True</GroupByCharacter>
       <SortMethod>TimeRemaining</SortMethod>
       <TextFadeTime>10</TextFadeTime>
@@ -154,7 +154,7 @@
             <Y>-1</Y>
           </maxPosition>
           <normalPosition>
-            <Left>1103</Left>
+            <Left>839</Left>
             <Top>55</Top>
             <Right>1703</Right>
             <Bottom>396</Bottom>
@@ -2256,36 +2256,6 @@
           <EnableByDefault>True</EnableByDefault>
           <Triggers>
             <Trigger>
-              <Name>Mezzed target</Name>
-              <TriggerText>{S} stands around looking utterly confused.</TriggerText>
-              <Comments></Comments>
-              <EnableRegex>True</EnableRegex>
-              <UseText>True</UseText>
-              <DisplayText>Mezzed {S}</DisplayText>
-              <CopyToClipboard>False</CopyToClipboard>
-              <ClipboardText></ClipboardText>
-              <UseTextToVoice>True</UseTextToVoice>
-              <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText>Mezzd</TextToVoiceText>
-              <PlayMediaFile>False</PlayMediaFile>
-              <TimerType>Timer</TimerType>
-              <TimerName>Mezzed {S} </TimerName>
-              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
-              <TimerMillisecondDuration>56000</TimerMillisecondDuration>
-              <TimerDuration>56</TimerDuration>
-              <TimerVisibleDuration>0</TimerVisibleDuration>
-              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
-              <TimerEndingTime>1</TimerEndingTime>
-              <UseTimerEnding>False</UseTimerEnding>
-              <UseTimerEnded>False</UseTimerEnded>
-              <UseCounterResetTimer>False</UseCounterResetTimer>
-              <CounterResetDuration>0</CounterResetDuration>
-              <Category>Bad things</Category>
-              <Modified>2020-01-23T22:21:11</Modified>
-              <UseFastCheck>True</UseFastCheck>
-              <TimerEarlyEnders />
-            </Trigger>
-            <Trigger>
               <Name>Awakened</Name>
               <TriggerText>{S} has been awakened by {S}</TriggerText>
               <Comments></Comments>
@@ -2617,6 +2587,36 @@
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
               <Modified>2020-01-23T22:42:08</Modified>
+              <UseFastCheck>False</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
+            <Trigger>
+              <Name>Headshot</Name>
+              <TriggerText>performed a FATAL BOW SHOT</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>False</EnableRegex>
+              <UseText>True</UseText>
+              <DisplayText>HEADSHOT</DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>True</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText>FUCK YA</TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>NoTimer</TimerType>
+              <TimerName></TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>StartNewTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-27T19:14:00</Modified>
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
