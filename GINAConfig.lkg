@@ -2356,7 +2356,7 @@
               <ClipboardText></ClipboardText>
               <UseTextToVoice>True</UseTextToVoice>
               <InterruptSpeech>False</InterruptSpeech>
-              <TextToVoiceText>AWAKENED</TextToVoiceText>
+              <TextToVoiceText>{S1} AWAKENED</TextToVoiceText>
               <PlayMediaFile>False</PlayMediaFile>
               <TimerType>NoTimer</TimerType>
               <TimerName></TimerName>
@@ -2371,7 +2371,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Bad things</Category>
-              <Modified>2020-01-27T19:35:53</Modified>
+              <Modified>2020-01-28T16:46:54</Modified>
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
@@ -2564,6 +2564,36 @@
               <UseFastCheck>True</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
+            <Trigger>
+              <Name>Countdown Timer</Name>
+              <TriggerText>You tell your party, 'timer {TS} {S}'</TriggerText>
+              <Comments></Comments>
+              <EnableRegex>True</EnableRegex>
+              <UseText>False</UseText>
+              <DisplayText></DisplayText>
+              <CopyToClipboard>False</CopyToClipboard>
+              <ClipboardText></ClipboardText>
+              <UseTextToVoice>False</UseTextToVoice>
+              <InterruptSpeech>False</InterruptSpeech>
+              <TextToVoiceText></TextToVoiceText>
+              <PlayMediaFile>False</PlayMediaFile>
+              <TimerType>Timer</TimerType>
+              <TimerName>{C}'s Timer - {S}</TimerName>
+              <RestartBasedOnTimerName>True</RestartBasedOnTimerName>
+              <TimerMillisecondDuration>0</TimerMillisecondDuration>
+              <TimerDuration>0</TimerDuration>
+              <TimerVisibleDuration>0</TimerVisibleDuration>
+              <TimerStartBehavior>RestartTimer</TimerStartBehavior>
+              <TimerEndingTime>1</TimerEndingTime>
+              <UseTimerEnding>False</UseTimerEnding>
+              <UseTimerEnded>False</UseTimerEnded>
+              <UseCounterResetTimer>False</UseCounterResetTimer>
+              <CounterResetDuration>0</CounterResetDuration>
+              <Category>Default</Category>
+              <Modified>2020-01-27T21:59:12</Modified>
+              <UseFastCheck>True</UseFastCheck>
+              <TimerEarlyEnders />
+            </Trigger>
           </Triggers>
         </TriggerGroup>
         <TriggerGroup>
@@ -2742,13 +2772,13 @@
             </Trigger>
             <Trigger>
               <Name>Headshot</Name>
-              <TriggerText>You shoot {S} for {N} points of damage. ({S1} Headshot)</TriggerText>
+              <TriggerText>^You shoot {S} for {N} points of damage. ({S1} Headshot)</TriggerText>
               <Comments></Comments>
               <EnableRegex>True</EnableRegex>
               <UseText>True</UseText>
               <DisplayText>{C} Scores a Headshot for {N} - Headshot Count: {COUNTER}</DisplayText>
-              <CopyToClipboard>False</CopyToClipboard>
-              <ClipboardText></ClipboardText>
+              <CopyToClipboard>True</CopyToClipboard>
+              <ClipboardText>{C} Scores a Headshot for {N} - Headshot Count: {COUNTER}</ClipboardText>
               <UseTextToVoice>False</UseTextToVoice>
               <InterruptSpeech>False</InterruptSpeech>
               <TextToVoiceText></TextToVoiceText>
@@ -2766,7 +2796,7 @@
               <UseCounterResetTimer>False</UseCounterResetTimer>
               <CounterResetDuration>0</CounterResetDuration>
               <Category>Default</Category>
-              <Modified>2020-01-27T20:18:19</Modified>
+              <Modified>2020-01-27T21:02:53</Modified>
               <UseFastCheck>False</UseFastCheck>
               <TimerEarlyEnders />
             </Trigger>
